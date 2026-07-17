@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Biến môi trường — TUYỆT ĐỐI không commit (chứa private key thật)
+.env
+.env.local
+
+# Hardhat
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# Coverage
+coverage/
+coverage.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

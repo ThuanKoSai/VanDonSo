@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Biến môi trường — TUYỆT ĐỐI không commit (chứa Mongo URI, RPC key)
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

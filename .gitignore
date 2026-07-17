@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Environment variables — never commit secrets
+.env
+.env.local
+.env.*.local
+
+# Hardhat (01-blockchain)
+cache/
+artifacts/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+
+# Frontend build output (03-frontend)
+dist/
+dist-ssr/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.local
+
+# Documentation / non-runnable assets (kept out of this repo by request)
+*.md
+*.docx
+*.pptx
+tai-lieu/
+prototype-van-don-so.html

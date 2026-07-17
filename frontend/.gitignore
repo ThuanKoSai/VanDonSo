@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Biến môi trường — TUYỆT ĐỐI không commit (chứa Pinata JWT)
+.env
+.env.local
+
+# Build output
+dist/
+dist-ssr/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.local

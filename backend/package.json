@@ -1,0 +1,20 @@
+{
+  "name": "van-don-so-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "seed:admin": "node scripts/seedAdmin.js",
+    "seed:sample": "node scripts/seedSampleData.js",
+    "test": "node tests/adminAuth.test.js && node tests/haversine.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "ethers": "^6.13.0",
+    "express": "^4.19.0",
+    "mongoose": "^8.0.0"
+  }
+}
